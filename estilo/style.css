@@ -5,9 +5,12 @@ body{
     background-color: var(--cor1);
 }
 
-main{
+section{
     background-color:var(--cor2);
     border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
 }
 
 header{
@@ -23,9 +26,6 @@ header > h1{
     margin-bottom: 20px;
 }
 
-main{
-    padding: 10px;
-}
 
 nav{
     padding: 10px;
