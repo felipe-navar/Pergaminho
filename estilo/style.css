@@ -2,33 +2,64 @@
 
 
 body{
-    background-color: var(--cor1);
+    background-color: var(--cor2);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
 section{
-    background-color:var(--cor2);
+    background-color:var(--cor3);
     border-radius: 20px;
-    margin: 20px;
+    margin: 20px auto;
+    padding: 25px;
+    text-align: justify;
+    max-width: 1000px;
+}
+
+section > p{
+    font-size: 1.1em;
+    text-align: justify;
+    text-indent: 16px;
+    margin: 15px 0px;
+    line-height: 1.7em;
+}
+
+section > h1,h2,strong{
+    text-align: center;
     padding: 10px;
-    display: inline-block;
+}
+
+section > ul{
+    list-style-position: inside;
+    line-height: 1.5em;
+    margin: auto;
 }
 
 header{
-    min-width: 170px;
+    min-width: 250px;
     text-align: center;
-    padding-top: 40px;
+    padding: 70px;
+    background-color: var(--cor1);
 }
 
 header > h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: var(--cor2);
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-
 nav{
-    padding: 10px;
+    background-color: var(--cor1);
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    width:100%;
 }
 
 a{
@@ -37,7 +68,26 @@ a{
     background-color: var(--cor3);
     padding: 10px;
     border-radius: 5px;
+    line-height: 2.5em;
+    
 }
+
+div.video{
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative; 
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
 
 
 
