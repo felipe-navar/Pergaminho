@@ -11,7 +11,7 @@ body{
 }
 
 section{
-    background-color:var(--cor3);
+    background-color:var(--cor5);
     border-radius: 20px;
     margin: 20px auto;
     padding: 25px;
@@ -25,14 +25,17 @@ section > p{
     text-indent: 16px;
     margin: 15px 0px;
     line-height: 1.7em;
+    
 }
 
 section > h1,h2,strong{
     text-align: center;
     padding: 10px;
+    color: var(--cor1);
+
 }
 
-section > ul{
+section > ul,ol{
     list-style-position: inside;
     line-height: 1.5em;
     margin: auto;
@@ -42,11 +45,12 @@ header{
     min-width: 250px;
     text-align: center;
     padding: 70px;
-    background-color: var(--cor1);
+    background-color: var(--cor3);
 }
 
 header > h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: -2px 3px 1px black;
     color: var(--cor2);
     font-size: 3em;
     margin-bottom: 10px;
@@ -65,7 +69,7 @@ img{
 a{
     text-decoration: none;
     color: black;
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     padding: 10px;
     border-radius: 5px;
     line-height: 2.5em;

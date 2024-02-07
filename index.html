@@ -4,11 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/style.css">
-    <title>Conteúdo</title>
+    <title>Pergaminho</title>
+    <style>
+        :root{
+            --cor1:#3D2B3D;
+            --cor2:#635D5C;
+            --cor3:#9B1D20;
+            --cor4:#D0FFCE;
+            --cor5:#CBEFB6;
+        }
+
+        iframe{
+            margin: auto;
+            width: 900px;
+            height: 300px;
+        }
+
+        ::-webkit-scrollbar{
+            width: 0px;
+            height: 0px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Conteúdo</h1>
+        <h1>Pergaminho</h1>
     </header>
     <nav>
             <a href="penal.html">Penal</a>
@@ -17,8 +37,11 @@
             <a href="portugues.html">Português</a>
         
     </nav>
-    <main>
-        <h1>Recentes</h1>
-    </main>
+    <section>
+        <h1>Recentidades</h1>
+        <div class="video"><iframe src="portugues.html#mais_recente" scrolling="no" sandbox="sandbox" referrerpolicy="no-referrer"></iframe></div>
+        <div class="video"><iframe src="portugues.html#mais_recente" scrolling="no" sandbox="sandbox" referrerpolicy="no-referrer"></iframe></div>
+        
+    </section>
 </body>
 </html>
