@@ -91,6 +91,12 @@ div.video > iframe {
     height: 90%;
 }
 
+.data{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: right;
+}
 
 
 
