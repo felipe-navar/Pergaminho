@@ -41,7 +41,6 @@ section > h3, h4, h5{
 
 
 
-
 section > ul,ol{
     list-style-position: inside;
     line-height: 1.5em;
@@ -105,6 +104,10 @@ div.video > iframe {
     text-align: right;
 }
 
+.latim{
+    font-style: italic; 
+    text-transform: lowercase;
+}
 
 
 
