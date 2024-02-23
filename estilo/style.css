@@ -1,8 +1,17 @@
 @charset "UTF-8";
 
+.latim::first-letter{
+    text-transform: uppercase;
+}
+
 .caixa::first-letter{
     text-transform: uppercase;
 }
+
+span.caixa-alta{
+    font-weight: bold;
+}
+
 
 body{
     background-color: var(--cor2);
@@ -109,8 +118,10 @@ div.video > iframe {
 
 .latim{
     font-style: italic; 
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
 
-
+.errado{
+    color: red;
+}
 
