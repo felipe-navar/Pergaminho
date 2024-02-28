@@ -40,6 +40,16 @@ section > p{
     
 }
 
+section > p.questao{
+    height: 70px;
+    width: 700px;
+    text-align: center;
+    box-shadow: 0px 1px 4px 7px var(--cor1);
+    margin: 47px auto;
+    background-color:var(--cor4);
+
+}
+
 section > h1,h2,strong{
     text-align: center;
     padding: 10px;
@@ -123,5 +133,10 @@ div.video > iframe {
 
 .errado{
     color: red;
+}
+
+.errado:hover{
+    background-color: blue;
+    color: white;
 }
 
